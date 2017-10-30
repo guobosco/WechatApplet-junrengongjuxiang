@@ -1,0 +1,52 @@
+{
+  "pages": [
+      "index/index",
+    "pages/zilizhang/zlz",
+    "pages/shop/shop",
+    "pages/junlian/junlian",
+    "pages/me/me"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#006400",
+    "navigationBarTitleText": "军人工具箱",
+    "navigationBarTextStyle": "white"
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#006400",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "index/index",
+        "iconPath": "images/zlz_no.png",
+        "selectedIconPath": "images/zlz_yes.png",
+        "text": "主页"
+      },
+      {
+        "pagePath": "pages/junlian/junlian",
+        "iconPath": "images/zlz_no.png",
+        "selectedIconPath": "images/zlz_yes.png",
+        "text": "军恋"
+      },
+      {
+        "pagePath": "pages/shop/shop",
+        "iconPath": "images/zlz_no.png",
+        "selectedIconPath": "images/zlz_yes.png",
+        "text": "购物"
+      },
+      {
+        "pagePath": "pages/me/me",
+          "iconPath": "images/zlz_no.png",
+          "selectedIconPath": "images/zlz_yes.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "debug": true
+}
