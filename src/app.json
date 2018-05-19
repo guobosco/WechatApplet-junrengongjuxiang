@@ -1,10 +1,9 @@
 {
   "pages": [
-      "index/index",
+    "index/index",
+    "pages/jinianri/jinianri",
     "pages/zilizhang/zlz",
-    "pages/shop/shop",
-    "pages/junlian/junlian",
-    "pages/me/me"
+    "pages/bmi/bmi"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -24,27 +23,27 @@
     "list": [
       {
         "pagePath": "index/index",
-        "iconPath": "images/zlz_no.png",
-        "selectedIconPath": "images/zlz_yes.png",
+        "iconPath": "images/indexNo.png",
+        "selectedIconPath": "images/indexYes.png",
         "text": "主页"
       },
       {
-        "pagePath": "pages/junlian/junlian",
-        "iconPath": "images/zlz_no.png",
-        "selectedIconPath": "images/zlz_yes.png",
-        "text": "军恋"
+        "pagePath": "pages/bmi/bmi",
+        "iconPath": "images/bmiNo.png",
+        "selectedIconPath": "images/bmiYes.png",
+        "text": "BMI计算"
       },
       {
-        "pagePath": "pages/shop/shop",
-        "iconPath": "images/zlz_no.png",
-        "selectedIconPath": "images/zlz_yes.png",
-        "text": "购物"
+        "pagePath": "pages/zilizhang/zlz",
+        "iconPath": "images/zlzNo.png",
+        "selectedIconPath": "images/zlzYes.png",
+        "text": "资历章排列"
       },
       {
-        "pagePath": "pages/me/me",
-          "iconPath": "images/zlz_no.png",
-          "selectedIconPath": "images/zlz_yes.png",
-        "text": "我的"
+        "pagePath": "pages/jinianri/jinianri",
+        "iconPath": "images/jinianriNo.png",
+        "selectedIconPath": "images/jinianriYes.png",
+        "text": "入伍纪念日"
       }
     ]
   },

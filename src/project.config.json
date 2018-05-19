@@ -4,17 +4,14 @@
 		"urlCheck": true,
 		"es6": true,
 		"postcss": true,
-		"minified": true
+		"minified": true,
+		"newFeature": true
 	},
-	"compileType": "weapp",
+	"compileType": "miniprogram",
 	"libVersion": "1.6.0",
 	"appid": "wxabc08306acae9705",
 	"projectname": "%E5%86%9B%E4%BA%BA%E5%B7%A5%E5%85%B7%E7%AE%B1%E5%BC%80%E5%8F%91",
 	"condition": {
-		"weapp": {
-			"current": -1,
-			"list": []
-		},
 		"search": {
 			"current": -1,
 			"list": []
@@ -22,6 +19,26 @@
 		"conversation": {
 			"current": -1,
 			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": -1,
+					"name": "纪念日",
+					"pathName": "pages/jinianri/jinianri",
+					"query": "",
+					"scene": "1001"
+				}
+			]
 		}
 	}
 }

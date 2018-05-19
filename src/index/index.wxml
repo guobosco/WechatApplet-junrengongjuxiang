@@ -1,2 +1,21 @@
 <!--index.wxml-->
-<view>模仿微信首页设计</view>
+<view class='container'>
+
+  <view class='zilizhang' bind:tap='zilizhang'>
+    <image class='imageStyle' src='../images/zlzYes.png'></image>
+    <text class='textStyle'>07式资历章排列</text>
+    <text class='jiantouStyle'>></text>
+  </view>
+
+  <view class='bmi' bind:tap='bmi'>
+    <image class='imageStyle' src='../images/bmiYes.png'></image>
+    <text class='textStyle'>bmi指数</text>
+    <text class='jiantouStyle'>></text>
+  </view>
+
+  <view class='jinianri' bind:tap='jinianri'>
+    <image class='imageStyle' src='../images/jinianriYes.png'></image>
+    <text class='textStyle'>入伍纪念日</text>
+    <text class='jiantouStyle'>></text>
+  </view>
+</view>

@@ -1,0 +1,130 @@
+<!--jinianri.wxml-->
+<!--入伍纪念日-->
+<view class='container'>
+<!--结果展示区-->
+  <view class='result'>
+    <view class='resultHint'><text class=''>今天是我入伍的第：</text></view>
+    <view class=''><text class='resultDays'>{{days}}</text><text class='resultHint2'>天</text></view>
+  </view>
+
+
+<!--设置区-->
+
+  <view>
+      <picker  mode="date" value="{{settingDate}}" start="1927-08-01"  bindchange='bindDateChange'>
+        <view class='picker'>
+          <text >入伍时间为: {{settingDate}}</text> 
+          <text >></text>
+        </view>
+      </picker>
+  </view>
+
+<!--提示区-->
+  <view class='remind' hidden="{{days>100}}">
+    <text class=''>距离入伍</text>
+    <text class='remindHint'>100</text>
+    <text>天还有：</text><text class='remindHint'>{{100-days}}</text>
+    <text class=''>天</text>
+  </view>
+
+  <view class='remind' hidden="{{days>365}}">
+    <text class=''>距离入伍</text>
+    <text class='remindHint'>365</text>
+    <text>天还有：</text><text class='remindHint'>{{365-days}}</text>
+    <text class=''>天</text>
+  </view>
+
+  <view class='remind' hidden="{{days>1000}}">
+    <text class=''>距离入伍</text>
+    <text class='remindHint'>1000</text>
+    <text>天还有：</text><text class='remindHint'>{{1000-days}}</text>
+    <text class=''>天</text>
+  </view>
+
+  <view class='remind' hidden="{{days>2000}}"> 
+    <text class=''>距离入伍</text>
+    <text class='remindHint'>2000</text>
+    <text>天还有：</text><text class='remindHint'>{{2000-days}}</text>
+    <text class=''>天</text>
+  </view>
+
+  <view class='remind' hidden="{{days>3000}}">
+    <text class=''>距离入伍</text>
+    <text class='remindHint'>3000</text>
+    <text>天还有：</text><text class='remindHint'>{{3000-days}}</text>
+    <text class=''>天</text>
+  </view>
+
+  <view class='remind' hidden="{{days>4000}}">
+    <text class=''>距离入伍</text>
+    <text class='remindHint'>4000</text>
+    <text>天还有：</text><text class='remindHint'>{{4000-days}}</text>
+    <text class=''>天</text>
+  </view>
+
+  <view class='remind' hidden="{{days>5000}}">
+    <text class=''>距离入伍</text>
+    <text class='remindHint'>5000</text>
+    <text>天还有：</text><text class='remindHint'>{{5000-days}}</text>
+    <text class=''>天</text>
+  </view>
+
+  <view class='remind' hidden="{{days>6000}}">
+    <text class=''>距离入伍</text>
+    <text class='remindHint'>6000</text>
+    <text>天还有：</text><text class='remindHint'>{{6000-days}}</text>
+    <text class=''>天</text>
+  </view>
+
+  <view class='remind' hidden="{{days>7000}}">
+    <text class=''>距离入伍</text>
+    <text class='remindHint'>7000</text>
+    <text>天还有：</text><text class='remindHint'>{{7000-days}}</text>
+    <text class=''>天</text>
+  </view>
+
+  <view class='remind' hidden="{{days>8000}}">
+    <text class=''>距离入伍</text>
+    <text class='remindHint'>8000</text>
+    <text>天还有：</text><text class='remindHint'>{{8000-days}}</text>
+    <text class=''>天</text>
+  </view>
+
+  <view class='remind' hidden="{{days>9000}}">
+    <text class=''>距离入伍</text>
+    <text class='remindHint'>9000</text>
+    <text>天还有：</text><text class='remindHint'>{{9000-days}}</text>
+    <text class=''>天</text>
+  </view>
+
+  <view class='remind' hidden="{{days>10000}}">
+    <text class=''>距离入伍</text>
+    <text class='remindHint'>10000</text>
+    <text>天还有：</text><text class='remindHint'>{{10000-days}}</text>
+    <text class=''>天</text>
+  </view>
+
+  <view class='remind' hidden="{{days>20000}}">
+    <text class=''>距离入伍</text>
+    <text class='remindHint'>20000</text>
+    <text>天还有：</text><text class='remindHint'>{{20000-days}}</text>
+    <text class=''>天</text>
+  </view>
+
+  <view class='remind' hidden="{{days>30000}}">
+    <text class=''>距离入伍</text>
+    <text class='remindHint'>30000</text>
+    <text>天还有：</text><text class='remindHint'>{{30000-days}}</text>
+    <text class=''>天</text>
+  </view>
+
+  <view class='remind' hidden="{{days>40000}}">
+    <text class=''>距离入伍</text>
+    <text class='remindHint'>40000</text>
+    <text>天还有：</text><text class='remindHint'>{{40000-days}}</text>
+    <text class=''>天</text>
+  </view>
+<!--分享操作区-->
+
+
+</view>

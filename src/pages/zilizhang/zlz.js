@@ -16,16 +16,16 @@ Page({
     loading: false,
     plain: false,
     disabled: false,
-    _1src0: "../images/0year.png",
-    _1src1: "../images/1year.png",
-    _1src2: "../images/2year.png",
-    _1src3: "../images/3year.png",
-    _1src4: "../images/4year.png",
-    _1src5: "../images/5year.png",
-    _1src10: "../images/10year.png",
+    _1src0: "images/0year.png",
+    _1src1: "images/1year.png",
+    _1src2: "images/2year.png",
+    _1src3: "images/3year.png",
+    _1src4: "images/4year.png",
+    _1src5: "images/5year.png",
+    _1src10: "images/10year.png",
 
     png:".png",
-    _2src:"../images/index2",
+    _2src:"images/index2",
     _0: "00",
     _1: "01",
     _2: "02",
@@ -66,66 +66,25 @@ Page({
   setShow: function(e) {
     this.setData({
       show: !this.data.show
-      
     })
   },
-  // setPaishu: function(e){
-  //   this.setData({
-  //     switch (index2)
-  //     {
-  //       case 0:
-  //       paishu=1;
-  //       break;
-  //       case 1:
-  //       paishu=1;
-  //       break;
-  //       case 2:
-  //       paishu=1;
-  //       break;
-  //       case 3:
-  //       paishu=2;
-  //       break;
-  //       case 4:
-  //       paishu=2;
-  //       break;
-  //       case 5:
-  //       paishu=3;
-  //       break;
-  //       case 6:
-  //       paishu=3;
-  //       break;
-  //       case 7:
-  //       paishu=4;
-  //       break;
-  //       case 8:
-  //       paishu=4;
-  //       break;
-  //       case 9:
-  //       paishu=5;
-  //       break;
-  //       case 10:
-  //       paishu=5;
-  //       break;
-  //       case 11:
-  //       paishu=6;
-  //       break;
-  //       case 12:
-  //       paishu=6;
-  //       break;
-  //     }
-  //   })
-  // },
-  
-  onShareAppMessage: function () {
-    var sharetitle,
-      tid = this.data.tid,
-      m = this.data.m,
-      flag = this.data.lastflag,
-      title = this.data.sharetitle;
+
+  //分享
+  onShareAppMessage: function (res) {
+    if (res.from === 'button') {
+      // 来自页面内转发按钮
+      console.log(res.target)
+    }
+    var path = '/pages/zilizhang/zlz?id=1';
     return {
-      title: flag == true ? title : '军人工具箱——资历章排列',
-      desc: '可排列资历章',
-      path: '/pages/dstree/dstree?tid=' + tid + '&m=' + m
+      title: '点我！来排列资历章。',
+      path: path,
+      success: function (res) {
+        // 转发成功
+      },
+      fail: function (res) {
+        // 转发失败
+      }
     }
   }
 

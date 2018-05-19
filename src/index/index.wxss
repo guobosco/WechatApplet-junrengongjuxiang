@@ -1,1 +1,61 @@
 /* index.wxss */
+page {  
+  display: block;  
+  min-height: 100%;  
+  background-color: #E0E0E0;  
+  
+}  
+/* .container {
+  background-color: #980000
+}  */
+
+.zilizhang{
+  background-color: #FFFFFF;
+  margin: 40rpx 0 5rpx 0;
+  padding: 15rpx 30rpx;
+
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+}
+.bmi{
+  background-color: #FFFFFF;
+  margin: 20rpx 0 5rpx 0;
+  padding: 15rpx 30rpx;
+
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+}
+.jinianri{
+  background-color: #FFFFFF;
+  margin: 20rpx 0 5rpx 0;
+  padding: 15rpx 30rpx;
+
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+}
+
+
+
+.imageStyle{
+  width: 30px;
+  height: 30px;
+  padding: 0rpx 20rpx;
+
+  order: 0;
+}
+
+.textStyle{
+  order: 1;
+  font-size: 18px;
+}
+
+.jiantouStyle{
+  color: #484848;
+  padding: 0rpx 20rpx;
+  font-size: 18px;
+
+  order: 2;
+}

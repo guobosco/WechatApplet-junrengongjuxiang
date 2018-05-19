@@ -1,0 +1,81 @@
+/* jinianri.wxss */
+.container {
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.result{
+  width:100%;
+  background-color: #006600;
+  padding-bottom: 30rpx;
+}
+
+.resultHint{
+  padding: 20rpx 40rpx 60rpx;
+  font-size: 36rpx;
+  color: #f1f1f1;
+  font-weight:600;
+}
+
+.resultDays{
+  font-size: 120rpx;
+  color: #f1f1f1;
+  font-weight:400;
+  display: flex;
+  justify-content: center;
+}
+.resultHint2{
+  padding-left: 550rpx;
+  font-size: 36rpx;
+  color: #f1f1f1;
+  font-weight:600;
+}
+
+.picker{
+  background-color: #FFFFFF;
+  margin: 40rpx 40rpx;
+  font-size: 20px;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+}
+
+.settingHint{
+   padding-left: 10rpx;
+}
+
+.settingHint2{
+  color:#006600;
+  padding-left: 10rpx;
+}
+
+.remind{
+  margin: 0rpx 70rpx;
+  padding: 40rpx 0rpx;
+  border-top: 3rpx solid #8B8989;
+  font-size: 36rpx;
+  color:#8B8989;
+
+  display: flex;
+  justify-content: flex-start;
+}
+.remindHint{
+  color:#006600;
+}
+
+/*微信模板*/
+
+.juzhong{
+  text-align:center;
+  margin-top: .77em;
+  margin-bottom: .3em;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #006400;
+  font-size: 14px;
+}
+.picker{
+  padding: 19rpx 26rpx;
+  background-color: #FFFFFF;
+}
